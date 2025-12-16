@@ -1,86 +1,76 @@
 <div align="center">
 
-<!-- HEADER SVG WITH FRIEREN INSPIRED DESIGN -->
-<svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg">
+<!-- HEADER SVG WITH FRIEREN INSPIRED DESIGN (GitHub Compatible) -->
+<svg width="100%" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
   <defs>
     <!-- Gradiente principal -->
-    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#4c1d95;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#5b21b6;stop-opacity:1" />
     </linearGradient>
     
-    <!-- Gradiente de acentos dorados -->
-    <linearGradient id="goldenAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.3" />
-      <stop offset="50%" style="stop-color:#f59e0b;stop-opacity:0.5" />
-      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:0.3" />
+    <!-- Gradiente dorado -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#f59e0b;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:0.4" />
     </linearGradient>
-    
-    <!-- Patrón de estrellas mágicas -->
-    <pattern id="magicStars" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
-      <circle cx="10" cy="10" r="1.5" fill="#e0d4f7" opacity="0.3">
-        <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="45" cy="30" r="1" fill="#c8b6e2" opacity="0.4">
-        <animate attributeName="opacity" values="0.4;0.9;0.4" dur="4s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="70" cy="15" r="1.2" fill="#fbbf24" opacity="0.3">
-        <animate attributeName="opacity" values="0.3;0.7;0.3" dur="5s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="30" cy="60" r="0.8" fill="#e0d4f7" opacity="0.5">
-        <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="85" cy="75" r="1.3" fill="#c8b6e2" opacity="0.3">
-        <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.5s" repeatCount="indefinite"/>
-      </circle>
-    </pattern>
-    
-    <!-- Filtro de brillo -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
   
-  <!-- Fondo base -->
-  <rect width="100%" height="300" fill="url(#headerGradient)"/>
+  <!-- Fondo base con gradiente -->
+  <rect width="1200" height="300" fill="url(#headerGrad)"/>
   
-  <!-- Patrón de estrellas mágicas -->
-  <rect width="100%" height="300" fill="url(#magicStars)"/>
+  <!-- Estrellas decorativas estáticas -->
+  <circle cx="120" cy="50" r="2" fill="#e0d4f7" opacity="0.6"/>
+  <circle cx="890" cy="70" r="1.5" fill="#c8b6e2" opacity="0.5"/>
+  <circle cx="450" cy="40" r="2.5" fill="#fbbf24" opacity="0.4"/>
+  <circle cx="750" cy="55" r="1.8" fill="#e0d4f7" opacity="0.7"/>
+  <circle cx="200" cy="250" r="2" fill="#c8b6e2" opacity="0.5"/>
+  <circle cx="980" cy="240" r="1.5" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="350" cy="260" r="2.2" fill="#e0d4f7" opacity="0.5"/>
+  <circle cx="650" cy="245" r="1.6" fill="#c8b6e2" opacity="0.6"/>
+  
+  <!-- Más estrellas distribuidas -->
+  <circle cx="280" cy="100" r="1.2" fill="#e0d4f7" opacity="0.4"/>
+  <circle cx="820" cy="130" r="1.5" fill="#fbbf24" opacity="0.5"/>
+  <circle cx="520" cy="180" r="1.8" fill="#c8b6e2" opacity="0.6"/>
+  <circle cx="1050" cy="160" r="1.3" fill="#e0d4f7" opacity="0.5"/>
   
   <!-- Líneas decorativas superiores -->
-  <line x1="0" y1="30" x2="100%" y2="30" stroke="url(#goldenAccent)" stroke-width="2" opacity="0.6"/>
-  <line x1="0" y1="35" x2="100%" y2="35" stroke="#e0d4f7" stroke-width="1" opacity="0.3"/>
+  <line x1="0" y1="30" x2="1200" y2="30" stroke="url(#goldGrad)" stroke-width="2" opacity="0.5"/>
+  <line x1="0" y1="35" x2="1200" y2="35" stroke="#e0d4f7" stroke-width="1" opacity="0.3"/>
   
   <!-- Líneas decorativas inferiores -->
-  <line x1="0" y1="265" x2="100%" y2="265" stroke="#e0d4f7" stroke-width="1" opacity="0.3"/>
-  <line x1="0" y1="270" x2="100%" y2="270" stroke="url(#goldenAccent)" stroke-width="2" opacity="0.6"/>
+  <line x1="0" y1="265" x2="1200" y2="265" stroke="#e0d4f7" stroke-width="1" opacity="0.3"/>
+  <line x1="0" y1="270" x2="1200" y2="270" stroke="url(#goldGrad)" stroke-width="2" opacity="0.5"/>
   
-  <!-- Detalles ornamentales laterales -->
-  <circle cx="50" cy="150" r="80" fill="none" stroke="#9b7ebd" stroke-width="1" opacity="0.1"/>
-  <circle cx="50" cy="150" r="100" fill="none" stroke="#c8b6e2" stroke-width="0.5" opacity="0.1"/>
+  <!-- Círculos ornamentales -->
+  <circle cx="100" cy="150" r="80" fill="none" stroke="#9b7ebd" stroke-width="1.5" opacity="0.15"/>
+  <circle cx="100" cy="150" r="100" fill="none" stroke="#c8b6e2" stroke-width="1" opacity="0.1"/>
+  <circle cx="1100" cy="150" r="80" fill="none" stroke="#9b7ebd" stroke-width="1.5" opacity="0.15"/>
+  <circle cx="1100" cy="150" r="100" fill="none" stroke="#c8b6e2" stroke-width="1" opacity="0.1"/>
   
-  <!-- Texto principal con sombra -->
-  <text x="50%" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="72" font-weight="bold" fill="#1e1b4b" text-anchor="middle" opacity="0.3">
+  <!-- Texto principal con efecto de sombra -->
+  <text x="600" y="135" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="72" font-weight="bold" fill="#0f0a2e" text-anchor="middle" opacity="0.4">
     KODEPE DEV
   </text>
-  <text x="50%" y="128" font-family="'Segoe UI', Arial, sans-serif" font-size="72" font-weight="bold" fill="#ffffff" text-anchor="middle" filter="url(#glow)">
+  <text x="600" y="130" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="72" font-weight="bold" fill="#ffffff" text-anchor="middle">
     KODEPE DEV
   </text>
   
   <!-- Subtítulo -->
-  <text x="50%" y="175" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#e0d4f7" text-anchor="middle">
+  <text x="600" y="175" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="22" fill="#e0d4f7" text-anchor="middle">
     Full Stack Developer | Laravel Specialist
   </text>
   
-  <!-- Detalles mágicos (símbolos de magia) -->
-  <polygon points="100,50 105,65 120,65 110,75 115,90 100,80 85,90 90,75 80,65 95,65" fill="#fbbf24" opacity="0.4">
-    <animateTransform attributeName="transform" type="rotate" from="0 100 70" to="360 100 70" dur="20s" repeatCount="indefinite"/>
-  </polygon>
+  <!-- Símbolos mágicos (estrella) -->
+  <polygon points="150,50 155,65 170,65 160,75 165,90 150,80 135,90 140,75 130,65 145,65" fill="#fbbf24" opacity="0.5"/>
+  <polygon points="1050,240 1055,255 1070,255 1060,265 1065,280 1050,270 1035,280 1040,265 1030,255 1045,255" fill="#f59e0b" opacity="0.4"/>
+  
+  <!-- Detalles geométricos decorativos -->
+  <rect x="50" y="140" width="20" height="20" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.3" transform="rotate(45 60 150)"/>
+  <rect x="1130" y="140" width="20" height="20" fill="none" stroke="#e0d4f7" stroke-width="2" opacity="0.3" transform="rotate(45 1140 150)"/>
 </svg>
 
 <!-- TYPING ANIMATION -->
@@ -136,20 +126,15 @@ const kodepe = {
 
 ---
 
-<!-- TECH STACK SVG BANNER -->
+<!-- TECH STACK SVG BANNER (GitHub Compatible) -->
 <div align="center">
-<svg width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200">
   <defs>
-    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="techGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#312e81;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#4c1d95;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#5b21b6;stop-opacity:1" />
     </linearGradient>
-    
-    <pattern id="techPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
-      <rect x="0" y="0" width="1" height="1" fill="#e0d4f7" opacity="0.1"/>
-      <rect x="25" y="25" width="1" height="1" fill="#fbbf24" opacity="0.1"/>
-    </pattern>
     
     <linearGradient id="techAccent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#c8b6e2;stop-opacity:0.3" />
@@ -158,33 +143,51 @@ const kodepe = {
     </linearGradient>
   </defs>
   
-  <rect width="100%" height="200" fill="url(#techGradient)"/>
-  <rect width="100%" height="200" fill="url(#techPattern)"/>
+  <rect width="1200" height="200" fill="url(#techGrad)"/>
   
-  <!-- Decoración superior -->
-  <path d="M 0,20 Q 25,10 50,20 T 100,20 T 150,20 T 200,20 T 250,20 T 300,20 T 350,20 T 400,20 T 450,20 T 500,20 T 550,20 T 600,20 T 650,20 T 700,20 T 750,20 T 800,20 T 850,20 T 900,20 T 950,20 T 1000,20 T 1050,20 T 1100,20 T 1150,20 T 1200,20 T 1250,20 T 1300,20 T 1350,20 T 1400,20 T 1450,20 T 1500,20" 
-        stroke="url(#techAccent)" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- Puntos decorativos estáticos -->
+  <circle cx="150" cy="50" r="1.5" fill="#e0d4f7" opacity="0.2"/>
+  <circle cx="300" cy="80" r="1.5" fill="#fbbf24" opacity="0.15"/>
+  <circle cx="450" cy="45" r="1.5" fill="#c8b6e2" opacity="0.2"/>
+  <circle cx="600" cy="70" r="1.5" fill="#e0d4f7" opacity="0.15"/>
+  <circle cx="750" cy="55" r="1.5" fill="#fbbf24" opacity="0.2"/>
+  <circle cx="900" cy="65" r="1.5" fill="#c8b6e2" opacity="0.15"/>
+  <circle cx="1050" cy="50" r="1.5" fill="#e0d4f7" opacity="0.2"/>
+  
+  <circle cx="200" cy="150" r="1.5" fill="#fbbf24" opacity="0.15"/>
+  <circle cx="350" cy="165" r="1.5" fill="#c8b6e2" opacity="0.2"/>
+  <circle cx="500" cy="155" r="1.5" fill="#e0d4f7" opacity="0.15"/>
+  <circle cx="650" cy="170" r="1.5" fill="#fbbf24" opacity="0.2"/>
+  <circle cx="800" cy="160" r="1.5" fill="#c8b6e2" opacity="0.15"/>
+  <circle cx="950" cy="165" r="1.5" fill="#e0d4f7" opacity="0.2"/>
+  
+  <!-- Decoración superior ondulada -->
+  <path d="M 0,20 Q 100,10 200,20 T 400,20 T 600,20 T 800,20 T 1000,20 T 1200,20" 
+        stroke="url(#techAccent)" stroke-width="2" fill="none" opacity="0.4"/>
   
   <!-- Iconos decorativos -->
-  <circle cx="100" cy="100" r="30" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.2"/>
-  <rect x="85" y="85" width="30" height="30" fill="none" stroke="#e0d4f7" stroke-width="2" opacity="0.2" transform="rotate(45 100 100)"/>
+  <circle cx="150" cy="100" r="25" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.25"/>
+  <rect x="138" y="88" width="24" height="24" fill="none" stroke="#e0d4f7" stroke-width="2" opacity="0.2" transform="rotate(45 150 100)"/>
   
-  <!-- Título -->
-  <text x="50%" y="105" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="bold" fill="#312e81" text-anchor="middle" opacity="0.3">
+  <circle cx="1050" cy="100" r="25" fill="none" stroke="#c8b6e2" stroke-width="2" opacity="0.25"/>
+  <rect x="1038" y="88" width="24" height="24" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.2" transform="rotate(45 1050 100)"/>
+  
+  <!-- Título con sombra -->
+  <text x="600" y="108" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="48" font-weight="bold" fill="#1a1561" text-anchor="middle" opacity="0.4">
     🛠️ TECH STACK
   </text>
-  <text x="50%" y="103" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">
+  <text x="600" y="105" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">
     🛠️ TECH STACK
   </text>
   
   <!-- Subtítulo -->
-  <text x="50%" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#c8b6e2" text-anchor="middle">
+  <text x="600" y="140" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="18" fill="#c8b6e2" text-anchor="middle">
     Tecnologías y Herramientas
   </text>
   
-  <!-- Decoración inferior -->
-  <path d="M 0,180 Q 25,190 50,180 T 100,180 T 150,180 T 200,180 T 250,180 T 300,180 T 350,180 T 400,180 T 450,180 T 500,180 T 550,180 T 600,180 T 650,180 T 700,180 T 750,180 T 800,180 T 850,180 T 900,180 T 950,180 T 1000,180 T 1050,180 T 1100,180 T 1150,180 T 1200,180 T 1250,180 T 1300,180 T 1350,180 T 1400,180 T 1450,180 T 1500,180" 
-        stroke="url(#techAccent)" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- Decoración inferior ondulada -->
+  <path d="M 0,180 Q 100,190 200,180 T 400,180 T 600,180 T 800,180 T 1000,180 T 1200,180" 
+        stroke="url(#techAccent)" stroke-width="2" fill="none" opacity="0.4"/>
 </svg>
 </div>
 
@@ -214,54 +217,63 @@ const kodepe = {
 
 ---
 
-<!-- PROJECTS SVG BANNER -->
+<!-- PROJECTS SVG BANNER (GitHub Compatible) -->
 <div align="center">
-<svg width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200">
   <defs>
-    <linearGradient id="projectsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="projGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#3730a3;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#4c1d95;stop-opacity:1" />
     </linearGradient>
     
-    <radialGradient id="projectsRadial">
-      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.2" />
+    <radialGradient id="projRadial">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.25" />
       <stop offset="100%" style="stop-color:#1e293b;stop-opacity:0" />
     </radialGradient>
-    
-    <pattern id="projectsDots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
-      <circle cx="15" cy="15" r="1" fill="#e0d4f7" opacity="0.2">
-        <animate attributeName="r" values="1;2;1" dur="4s" repeatCount="indefinite"/>
-      </circle>
-    </pattern>
   </defs>
   
-  <rect width="100%" height="200" fill="url(#projectsGradient)"/>
-  <rect width="100%" height="200" fill="url(#projectsDots)"/>
-  <circle cx="50%" cy="100" r="150" fill="url(#projectsRadial)"/>
+  <rect width="1200" height="200" fill="url(#projGrad)"/>
+  <circle cx="600" cy="100" r="180" fill="url(#projRadial)"/>
+  
+  <!-- Puntos decorativos distribuidos -->
+  <circle cx="180" cy="60" r="1.5" fill="#e0d4f7" opacity="0.3"/>
+  <circle cx="320" cy="90" r="1.5" fill="#fbbf24" opacity="0.25"/>
+  <circle cx="450" cy="50" r="1.5" fill="#c8b6e2" opacity="0.3"/>
+  <circle cx="750" cy="70" r="1.5" fill="#e0d4f7" opacity="0.25"/>
+  <circle cx="890" cy="85" r="1.5" fill="#fbbf24" opacity="0.3"/>
+  <circle cx="1020" cy="55" r="1.5" fill="#c8b6e2" opacity="0.25"/>
+  
+  <circle cx="220" cy="150" r="1.5" fill="#c8b6e2" opacity="0.3"/>
+  <circle cx="380" cy="165" r="1.5" fill="#e0d4f7" opacity="0.25"/>
+  <circle cx="540" cy="145" r="1.5" fill="#fbbf24" opacity="0.3"/>
+  <circle cx="660" cy="160" r="1.5" fill="#c8b6e2" opacity="0.25"/>
+  <circle cx="820" cy="155" r="1.5" fill="#e0d4f7" opacity="0.3"/>
+  <circle cx="980" cy="170" r="1.5" fill="#fbbf24" opacity="0.25"/>
   
   <!-- Hexágonos decorativos -->
-  <polygon points="150,60 165,70 165,90 150,100 135,90 135,70" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.3"/>
-  <polygon points="150,60 165,70 165,90 150,100 135,90 135,70" fill="none" stroke="#e0d4f7" stroke-width="1" opacity="0.2" transform="scale(1.3) translate(-30, -10)"/>
+  <polygon points="180,60 195,70 195,90 180,100 165,90 165,70" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.35"/>
+  <polygon points="180,60 195,70 195,90 180,100 165,90 165,70" fill="none" stroke="#e0d4f7" stroke-width="1.5" opacity="0.25" transform="translate(15, 5) scale(1.15)"/>
   
-  <!-- Título con efecto -->
-  <text x="50%" y="105" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="bold" fill="#1e293b" text-anchor="middle" opacity="0.4">
+  <polygon points="1020,60 1035,70 1035,90 1020,100 1005,90 1005,70" fill="none" stroke="#c8b6e2" stroke-width="2" opacity="0.35"/>
+  <polygon points="1020,60 1035,70 1035,90 1020,100 1005,90 1005,70" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.25" transform="translate(-15, 5) scale(1.15)"/>
+  
+  <!-- Título con sombra -->
+  <text x="600" y="108" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="48" font-weight="bold" fill="#0f1419" text-anchor="middle" opacity="0.5">
     🚀 PROYECTOS
   </text>
-  <text x="50%" y="103" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">
+  <text x="600" y="105" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">
     🚀 PROYECTOS
   </text>
   
   <!-- Subtítulo -->
-  <text x="50%" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#c8b6e2" text-anchor="middle">
+  <text x="600" y="140" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="18" fill="#c8b6e2" text-anchor="middle">
     Desarrollos Destacados
   </text>
   
-  <!-- Línea decorativa animada -->
-  <line x1="30%" y1="160" x2="70%" y2="160" stroke="#fbbf24" stroke-width="3" opacity="0.6">
-    <animate attributeName="x1" values="30%;35%;30%" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="70%;65%;70%" dur="3s" repeatCount="indefinite"/>
-  </line>
+  <!-- Línea decorativa dorada -->
+  <line x1="360" y1="165" x2="840" y2="165" stroke="#fbbf24" stroke-width="3" opacity="0.5"/>
+  <line x1="380" y1="165" x2="820" y2="165" stroke="#f59e0b" stroke-width="2" opacity="0.4"/>
 </svg>
 </div>
 
@@ -300,59 +312,59 @@ const kodepe = {
 
 ---
 
-<!-- STATS SVG BANNER -->
+<!-- STATS SVG BANNER (GitHub Compatible) -->
 <div align="center">
-<svg width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200">
   <defs>
-    <linearGradient id="statsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="statsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#1e293b;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#334155;stop-opacity:1" />
     </linearGradient>
     
-    <pattern id="statsGrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 0 0 L 0 40 M 0 0 L 40 0" stroke="#e0d4f7" stroke-width="0.5" opacity="0.1"/>
-    </pattern>
-    
-    <linearGradient id="statsLine" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="statsLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#c8b6e2;stop-opacity:0" />
-      <stop offset="50%" style="stop-color:#fbbf24;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#fbbf24;stop-opacity:0.7" />
       <stop offset="100%" style="stop-color:#c8b6e2;stop-opacity:0" />
     </linearGradient>
   </defs>
   
-  <rect width="100%" height="200" fill="url(#statsGradient)"/>
-  <rect width="100%" height="200" fill="url(#statsGrid)"/>
+  <rect width="1200" height="200" fill="url(#statsGrad)"/>
   
-  <!-- Elementos gráficos de estadísticas -->
-  <polyline points="100,150 150,120 200,140 250,100 300,130" 
-            fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.3"/>
-  <polyline points="800,150 850,130 900,145 950,110 1000,125" 
-            fill="none" stroke="#c8b6e2" stroke-width="2" opacity="0.3"/>
+  <!-- Grid decorativo estático -->
+  <path d="M 0 0 L 0 200 M 40 0 L 40 200 M 80 0 L 80 200 M 120 0 L 120 200 M 160 0 L 160 200 M 200 0 L 200 200 M 240 0 L 240 200 M 280 0 L 280 200 M 320 0 L 320 200 M 360 0 L 360 200 M 400 0 L 400 200 M 440 0 L 440 200 M 480 0 L 480 200 M 520 0 L 520 200 M 560 0 L 560 200 M 600 0 L 600 200 M 640 0 L 640 200 M 680 0 L 680 200 M 720 0 L 720 200 M 760 0 L 760 200 M 800 0 L 800 200 M 840 0 L 840 200 M 880 0 L 880 200 M 920 0 L 920 200 M 960 0 L 960 200 M 1000 0 L 1000 200 M 1040 0 L 1040 200 M 1080 0 L 1080 200 M 1120 0 L 1120 200 M 1160 0 L 1160 200 M 1200 0 L 1200 200" stroke="#e0d4f7" stroke-width="0.5" opacity="0.08"/>
+  <path d="M 0 0 L 1200 0 M 0 40 L 1200 40 M 0 80 L 1200 80 M 0 120 L 1200 120 M 0 160 L 1200 160 M 0 200 L 1200 200" stroke="#e0d4f7" stroke-width="0.5" opacity="0.08"/>
   
-  <!-- Círculos animados -->
-  <circle cx="200" cy="140" r="4" fill="#fbbf24" opacity="0.6">
-    <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="900" cy="145" r="4" fill="#c8b6e2" opacity="0.6">
-    <animate attributeName="r" values="4;6;4" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Elementos gráficos de estadísticas (líneas) -->
+  <polyline points="120,155 170,125 220,145 270,105 320,135" 
+            fill="none" stroke="#fbbf24" stroke-width="2.5" opacity="0.4"/>
+  <polyline points="880,155 930,135 980,150 1030,115 1080,130" 
+            fill="none" stroke="#c8b6e2" stroke-width="2.5" opacity="0.4"/>
   
-  <!-- Título -->
-  <text x="50%" y="95" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="bold" fill="#0f172a" text-anchor="middle" opacity="0.5">
+  <!-- Círculos en los puntos de datos -->
+  <circle cx="170" cy="125" r="4" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="220" cy="145" r="4" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="270" cy="105" r="4" fill="#fbbf24" opacity="0.6"/>
+  
+  <circle cx="930" cy="135" r="4" fill="#c8b6e2" opacity="0.6"/>
+  <circle cx="980" cy="150" r="4" fill="#c8b6e2" opacity="0.6"/>
+  <circle cx="1030" cy="115" r="4" fill="#c8b6e2" opacity="0.6"/>
+  
+  <!-- Título con sombra -->
+  <text x="600" y="98" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="48" font-weight="bold" fill="#0a0e1a" text-anchor="middle" opacity="0.6">
     📊 ESTADÍSTICAS
   </text>
-  <text x="50%" y="93" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">
+  <text x="600" y="95" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">
     📊 ESTADÍSTICAS
   </text>
   
   <!-- Subtítulo -->
-  <text x="50%" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#c8b6e2" text-anchor="middle">
+  <text x="600" y="130" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="18" fill="#c8b6e2" text-anchor="middle">
     GitHub Activity & Contributions
   </text>
   
   <!-- Línea brillante inferior -->
-  <line x1="0" y1="180" x2="100%" y2="180" stroke="url(#statsLine)" stroke-width="3"/>
+  <line x1="0" y1="185" x2="1200" y2="185" stroke="url(#statsLineGrad)" stroke-width="3"/>
 </svg>
 </div>
 
@@ -432,35 +444,38 @@ const kodepe = {
 
 ---
 
-<!-- FOOTER SVG -->
-<svg width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+<!-- FOOTER SVG (GitHub Compatible) -->
+<svg width="100%" height="120" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120">
   <defs>
-    <linearGradient id="footerGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+    <linearGradient id="footGrad" x1="0%" y1="100%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#5b21b6;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#4c1d95;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#1e1b4b;stop-opacity:1" />
     </linearGradient>
   </defs>
   
-  <rect width="100%" height="120" fill="url(#footerGradient)"/>
+  <rect width="1200" height="120" fill="url(#footGrad)"/>
   
   <!-- Onda decorativa -->
-  <path d="M 0,60 Q 150,20 300,60 T 600,60 T 900,60 T 1200,60 T 1500,60 L 1500,120 L 0,120 Z" 
-        fill="#1e1b4b" opacity="0.3"/>
+  <path d="M 0,60 Q 150,20 300,60 T 600,60 T 900,60 T 1200,60 L 1200,120 L 0,120 Z" 
+        fill="#1e1b4b" opacity="0.4"/>
   
-  <!-- Estrellas brillantes finales -->
-  <circle cx="20%" cy="40" r="2" fill="#fbbf24" opacity="0.7">
-    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="50%" cy="30" r="2.5" fill="#e0d4f7" opacity="0.8">
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="80%" cy="45" r="2" fill="#c8b6e2" opacity="0.6">
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Estrellas brillantes estáticas -->
+  <circle cx="240" cy="40" r="2.5" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="600" cy="30" r="3" fill="#e0d4f7" opacity="0.9"/>
+  <circle cx="960" cy="45" r="2.5" fill="#c8b6e2" opacity="0.7"/>
+  
+  <circle cx="150" cy="55" r="1.8" fill="#e0d4f7" opacity="0.6"/>
+  <circle cx="450" cy="50" r="2" fill="#fbbf24" opacity="0.7"/>
+  <circle cx="750" cy="38" r="1.5" fill="#c8b6e2" opacity="0.8"/>
+  <circle cx="1050" cy="48" r="2.2" fill="#e0d4f7" opacity="0.7"/>
+  
+  <!-- Detalles decorativos adicionales -->
+  <circle cx="300" cy="42" r="1.5" fill="#fbbf24" opacity="0.5"/>
+  <circle cx="900" cy="35" r="1.8" fill="#c8b6e2" opacity="0.6"/>
   
   <!-- Texto del footer -->
-  <text x="50%" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">
+  <text x="600" y="85" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="16" font-weight="500" fill="#ffffff" text-anchor="middle" opacity="0.95">
     ⭐️ Si te gusta mi trabajo, considera darle una estrella a mis repositorios ⭐️
   </text>
 </svg>
