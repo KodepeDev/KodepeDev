@@ -1,58 +1,83 @@
 <div align="center">
 
-<!-- HEADER SVG - Ultra Compatible with GitHub -->
-<svg width="100%" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
-  <!-- Fondo con gradiente simple -->
-  <rect width="1200" height="300" fill="#4c1d95"/>
-  <rect width="1200" height="150" fill="#5b21b6" opacity="0.5"/>
-  <rect width="1200" height="75" fill="#1e1b4b" opacity="0.3"/>
+<!-- MODERN HEADER - Frieren Inspired -->
+<svg width="100%" height="350" viewBox="0 0 1200 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo base degradado con capas -->
+  <rect width="1200" height="350" fill="#0f0a1f"/>
+  <rect width="1200" height="350" fill="#1e1b4b" opacity="0.8"/>
+  <rect x="0" y="0" width="1200" height="200" fill="#4c1d95" opacity="0.4"/>
+  <rect x="0" y="150" width="1200" height="200" fill="#5b21b6" opacity="0.3"/>
   
-  <!-- Estrellas decorativas -->
-  <circle cx="120" cy="50" r="2" fill="#fbbf24" opacity="0.7"/>
-  <circle cx="890" cy="70" r="1.5" fill="#e0d4f7" opacity="0.6"/>
-  <circle cx="450" cy="40" r="2.5" fill="#fbbf24" opacity="0.5"/>
-  <circle cx="750" cy="55" r="1.8" fill="#c8b6e2" opacity="0.7"/>
-  <circle cx="200" cy="250" r="2" fill="#fbbf24" opacity="0.6"/>
-  <circle cx="980" cy="240" r="1.5" fill="#e0d4f7" opacity="0.7"/>
-  <circle cx="350" cy="260" r="2.2" fill="#c8b6e2" opacity="0.5"/>
-  <circle cx="650" cy="245" r="1.6" fill="#fbbf24" opacity="0.6"/>
+  <!-- Formas geométricas modernas de fondo -->
+  <circle cx="-50" cy="175" r="200" fill="#7c3aed" opacity="0.1"/>
+  <circle cx="1250" cy="175" r="200" fill="#a78bfa" opacity="0.1"/>
   
-  <!-- Más estrellas -->
-  <circle cx="280" cy="100" r="1.2" fill="#e0d4f7" opacity="0.5"/>
-  <circle cx="820" cy="130" r="1.5" fill="#fbbf24" opacity="0.6"/>
-  <circle cx="520" cy="180" r="1.8" fill="#c8b6e2" opacity="0.6"/>
-  <circle cx="1050" cy="160" r="1.3" fill="#e0d4f7" opacity="0.5"/>
+  <!-- Patrón de puntos elegante -->
+  <g opacity="0.15">
+    <circle cx="100" cy="80" r="2" fill="#e0d4f7"/>
+    <circle cx="150" cy="120" r="1.5" fill="#fbbf24"/>
+    <circle cx="200" cy="90" r="2" fill="#c8b6e2"/>
+    <circle cx="300" cy="110" r="1.5" fill="#e0d4f7"/>
+    <circle cx="400" cy="85" r="2" fill="#fbbf24"/>
+    <circle cx="500" cy="95" r="1.5" fill="#c8b6e2"/>
+    <circle cx="600" cy="75" r="2" fill="#e0d4f7"/>
+    <circle cx="700" cy="105" r="1.5" fill="#fbbf24"/>
+    <circle cx="800" cy="90" r="2" fill="#c8b6e2"/>
+    <circle cx="900" cy="80" r="1.5" fill="#e0d4f7"/>
+    <circle cx="1000" cy="100" r="2" fill="#fbbf24"/>
+    <circle cx="1100" cy="95" r="1.5" fill="#c8b6e2"/>
+    
+    <circle cx="120" cy="260" r="1.5" fill="#c8b6e2"/>
+    <circle cx="220" cy="280" r="2" fill="#fbbf24"/>
+    <circle cx="350" cy="270" r="1.5" fill="#e0d4f7"/>
+    <circle cx="480" cy="290" r="2" fill="#c8b6e2"/>
+    <circle cx="620" cy="275" r="1.5" fill="#fbbf24"/>
+    <circle cx="750" cy="285" r="2" fill="#e0d4f7"/>
+    <circle cx="880" cy="265" r="1.5" fill="#c8b6e2"/>
+    <circle cx="1020" cy="280" r="2" fill="#fbbf24"/>
+  </g>
   
-  <!-- Líneas decorativas superiores -->
-  <line x1="0" y1="30" x2="1200" y2="30" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
-  <line x1="0" y1="35" x2="1200" y2="35" stroke="#e0d4f7" stroke-width="1" opacity="0.3"/>
+  <!-- Líneas decorativas superiores modernas -->
+  <rect x="0" y="40" width="600" height="3" fill="#fbbf24" opacity="0.6"/>
+  <rect x="50" y="45" width="500" height="1" fill="#e0d4f7" opacity="0.4"/>
+  
+  <!-- Elemento geométrico izquierdo -->
+  <polygon points="80,150 120,130 160,150 120,170" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.3"/>
+  <polygon points="70,150 120,120 170,150 120,180" fill="none" stroke="#e0d4f7" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Elemento geométrico derecho -->
+  <polygon points="1040,150 1080,130 1120,150 1080,170" fill="none" stroke="#c8b6e2" stroke-width="2" opacity="0.3"/>
+  <polygon points="1030,150 1080,120 1130,150 1080,180" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.2"/>
+  
+  <!-- TÍTULO PRINCIPAL - Estilo moderno -->
+  <g>
+    <!-- Sombra del texto -->
+    <text x="600" y="165" font-family="Arial, sans-serif" font-size="85" font-weight="900" fill="#000000" text-anchor="middle" opacity="0.5" letter-spacing="8">KODEPE</text>
+    
+    <!-- Texto principal -->
+    <text x="600" y="160" font-family="Arial, sans-serif" font-size="85" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="8">KODEPE</text>
+    
+    <!-- Acento dorado en una letra -->
+    <text x="600" y="160" font-family="Arial, sans-serif" font-size="85" font-weight="900" fill="#fbbf24" text-anchor="middle" letter-spacing="8" opacity="0.8">K</text>
+  </g>
+  
+  <!-- Subtítulo DEV con estilo -->
+  <g>
+    <rect x="520" y="180" width="160" height="50" fill="#7c3aed" opacity="0.2"/>
+    <text x="600" y="215" font-family="Arial, sans-serif" font-size="42" font-weight="300" fill="#e0d4f7" text-anchor="middle" letter-spacing="18">DEV</text>
+  </g>
+  
+  <!-- Descripción -->
+  <text x="600" y="265" font-family="Arial, sans-serif" font-size="20" font-weight="500" fill="#c8b6e2" text-anchor="middle" letter-spacing="2">FULL STACK DEVELOPER</text>
+  <text x="600" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="300" fill="#9b7ebd" text-anchor="middle" letter-spacing="1">Laravel Specialist • Backend Expert</text>
   
   <!-- Líneas decorativas inferiores -->
-  <line x1="0" y1="265" x2="1200" y2="265" stroke="#e0d4f7" stroke-width="1" opacity="0.3"/>
-  <line x1="0" y1="270" x2="1200" y2="270" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+  <rect x="600" y="310" width="600" height="3" fill="#fbbf24" opacity="0.6"/>
+  <rect x="650" y="315" width="500" height="1" fill="#e0d4f7" opacity="0.4"/>
   
-  <!-- Círculos ornamentales laterales -->
-  <circle cx="100" cy="150" r="80" fill="none" stroke="#c8b6e2" stroke-width="1.5" opacity="0.2"/>
-  <circle cx="100" cy="150" r="100" fill="none" stroke="#9b7ebd" stroke-width="1" opacity="0.15"/>
-  <circle cx="1100" cy="150" r="80" fill="none" stroke="#c8b6e2" stroke-width="1.5" opacity="0.2"/>
-  <circle cx="1100" cy="150" r="100" fill="none" stroke="#9b7ebd" stroke-width="1" opacity="0.15"/>
-  
-  <!-- Texto con sombra -->
-  <text x="600" y="135" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#0f0a2e" text-anchor="middle" opacity="0.4">KODEPE DEV</text>
-  <text x="600" y="130" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#ffffff" text-anchor="middle">KODEPE DEV</text>
-  
-  <!-- Subtítulo -->
-  <text x="600" y="175" font-family="Arial, sans-serif" font-size="22" fill="#e0d4f7" text-anchor="middle">Full Stack Developer | Laravel Specialist</text>
-  
-  <!-- Estrella mágica izquierda -->
-  <polygon points="150,50 155,65 170,65 160,75 165,90 150,80 135,90 140,75 130,65 145,65" fill="#fbbf24" opacity="0.5"/>
-  
-  <!-- Estrella mágica derecha -->
-  <polygon points="1050,240 1055,255 1070,255 1060,265 1065,280 1050,270 1035,280 1040,265 1030,255 1045,255" fill="#fbbf24" opacity="0.5"/>
-  
-  <!-- Detalles geométricos -->
-  <rect x="50" y="140" width="20" height="20" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.3" transform="rotate(45 60 150)"/>
-  <rect x="1130" y="140" width="20" height="20" fill="none" stroke="#e0d4f7" stroke-width="2" opacity="0.3" transform="rotate(45 1140 150)"/>
+  <!-- Detalles finales - estrellas mágicas -->
+  <polygon points="200,320 203,328 211,328 205,333 208,341 200,336 192,341 195,333 189,328 197,328" fill="#fbbf24" opacity="0.7"/>
+  <polygon points="1000,320 1003,328 1011,328 1005,333 1008,341 1000,336 992,341 995,333 989,328 997,328" fill="#e0d4f7" opacity="0.7"/>
 </svg>
 
 <!-- TYPING ANIMATION -->
@@ -108,46 +133,59 @@ const kodepe = {
 
 ---
 
-<!-- TECH STACK SVG - Ultra Compatible -->
+<!-- TECH STACK - Modern Design -->
 <div align="center">
-<svg width="100%" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Fondo con capas de color -->
-  <rect width="1200" height="200" fill="#4c1d95"/>
-  <rect width="1200" height="100" fill="#5b21b6" opacity="0.5"/>
+<svg width="100%" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo moderno con capas -->
+  <rect width="1200" height="250" fill="#1a1442"/>
+  <rect width="1200" height="250" fill="#312e81" opacity="0.6"/>
+  <rect x="0" y="0" width="600" height="250" fill="#4c1d95" opacity="0.3"/>
+  <rect x="600" y="0" width="600" height="250" fill="#5b21b6" opacity="0.2"/>
   
-  <!-- Puntos decorativos -->
-  <circle cx="150" cy="50" r="1.5" fill="#e0d4f7" opacity="0.3"/>
-  <circle cx="300" cy="80" r="1.5" fill="#fbbf24" opacity="0.25"/>
-  <circle cx="450" cy="45" r="1.5" fill="#c8b6e2" opacity="0.3"/>
-  <circle cx="600" cy="70" r="1.5" fill="#e0d4f7" opacity="0.25"/>
-  <circle cx="750" cy="55" r="1.5" fill="#fbbf24" opacity="0.3"/>
-  <circle cx="900" cy="65" r="1.5" fill="#c8b6e2" opacity="0.25"/>
-  <circle cx="1050" cy="50" r="1.5" fill="#e0d4f7" opacity="0.3"/>
+  <!-- Formas geométricas decorativas -->
+  <circle cx="100" cy="125" r="120" fill="#7c3aed" opacity="0.08"/>
+  <circle cx="1100" cy="125" r="120" fill="#a78bfa" opacity="0.08"/>
   
-  <circle cx="200" cy="150" r="1.5" fill="#fbbf24" opacity="0.25"/>
-  <circle cx="350" cy="165" r="1.5" fill="#c8b6e2" opacity="0.3"/>
-  <circle cx="500" cy="155" r="1.5" fill="#e0d4f7" opacity="0.25"/>
-  <circle cx="650" cy="170" r="1.5" fill="#fbbf24" opacity="0.3"/>
-  <circle cx="800" cy="160" r="1.5" fill="#c8b6e2" opacity="0.25"/>
-  <circle cx="950" cy="165" r="1.5" fill="#e0d4f7" opacity="0.3"/>
+  <!-- Hexágonos modernos izquierda -->
+  <polygon points="150,80 175,95 175,125 150,140 125,125 125,95" fill="none" stroke="#fbbf24" stroke-width="2.5" opacity="0.4"/>
+  <polygon points="140,80 175,85 185,125 150,150 115,125 115,85" fill="none" stroke="#e0d4f7" stroke-width="1" opacity="0.2"/>
   
-  <!-- Ondas decorativas -->
-  <path d="M 0,20 Q 100,10 200,20 T 400,20 T 600,20 T 800,20 T 1000,20 T 1200,20" stroke="#e0d4f7" stroke-width="2" fill="none" opacity="0.4"/>
-  <path d="M 0,180 Q 100,190 200,180 T 400,180 T 600,180 T 800,180 T 1000,180 T 1200,180" stroke="#fbbf24" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- Hexágonos modernos derecha -->
+  <polygon points="1050,80 1075,95 1075,125 1050,140 1025,125 1025,95" fill="none" stroke="#c8b6e2" stroke-width="2.5" opacity="0.4"/>
+  <polygon points="1040,80 1075,85 1085,125 1050,150 1015,125 1015,85" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.2"/>
   
-  <!-- Iconos decorativos -->
-  <circle cx="150" cy="100" r="25" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.3"/>
-  <rect x="138" y="88" width="24" height="24" fill="none" stroke="#e0d4f7" stroke-width="2" opacity="0.25" transform="rotate(45 150 100)"/>
+  <!-- Línea decorativa superior -->
+  <rect x="300" y="50" width="600" height="4" fill="#fbbf24" opacity="0.5"/>
+  <rect x="320" y="56" width="560" height="1" fill="#e0d4f7" opacity="0.3"/>
   
-  <circle cx="1050" cy="100" r="25" fill="none" stroke="#c8b6e2" stroke-width="2" opacity="0.3"/>
-  <rect x="1038" y="88" width="24" height="24" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.25" transform="rotate(45 1050 100)"/>
-  
-  <!-- Título -->
-  <text x="600" y="108" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#1a1561" text-anchor="middle" opacity="0.4">🛠️ TECH STACK</text>
-  <text x="600" y="105" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">🛠️ TECH STACK</text>
+  <!-- TÍTULO con diseño moderno -->
+  <g>
+    <!-- Fondo del título -->
+    <rect x="380" y="95" width="440" height="70" fill="#5b21b6" opacity="0.2"/>
+    
+    <!-- Icono -->
+    <text x="420" y="145" font-family="Arial, sans-serif" font-size="48" fill="#fbbf24" opacity="0.9">🛠️</text>
+    
+    <!-- Texto principal -->
+    <text x="600" y="150" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="6">TECH STACK</text>
+  </g>
   
   <!-- Subtítulo -->
-  <text x="600" y="140" font-family="Arial, sans-serif" font-size="18" fill="#c8b6e2" text-anchor="middle">Tecnologías y Herramientas</text>
+  <text x="600" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="300" fill="#c8b6e2" text-anchor="middle" letter-spacing="3">TECNOLOGÍAS Y HERRAMIENTAS</text>
+  
+  <!-- Línea decorativa inferior -->
+  <rect x="300" y="210" width="600" height="4" fill="#fbbf24" opacity="0.5"/>
+  <rect x="320" y="216" width="560" height="1" fill="#e0d4f7" opacity="0.3"/>
+  
+  <!-- Puntos decorativos -->
+  <g opacity="0.3">
+    <circle cx="250" cy="100" r="2" fill="#e0d4f7"/>
+    <circle cx="280" cy="130" r="1.5" fill="#fbbf24"/>
+    <circle cx="310" cy="110" r="2" fill="#c8b6e2"/>
+    <circle cx="890" cy="100" r="2" fill="#c8b6e2"/>
+    <circle cx="920" cy="130" r="1.5" fill="#e0d4f7"/>
+    <circle cx="950" cy="110" r="2" fill="#fbbf24"/>
+  </g>
 </svg>
 </div>
 
@@ -177,46 +215,61 @@ const kodepe = {
 
 ---
 
-<!-- PROJECTS SVG - Ultra Compatible -->
+<!-- PROJECTS - Modern Design -->
 <div align="center">
-<svg width="100%" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Fondo con capas -->
-  <rect width="1200" height="200" fill="#3730a3"/>
-  <rect width="1200" height="100" fill="#4c1d95" opacity="0.6"/>
-  <circle cx="600" cy="100" r="180" fill="#fbbf24" opacity="0.08"/>
+<svg width="100%" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo moderno -->
+  <rect width="1200" height="250" fill="#0a0a1f"/>
+  <rect width="1200" height="250" fill="#1e293b" opacity="0.8"/>
+  <rect x="0" y="50" width="1200" height="150" fill="#3730a3" opacity="0.4"/>
   
-  <!-- Puntos decorativos -->
-  <circle cx="180" cy="60" r="1.5" fill="#e0d4f7" opacity="0.4"/>
-  <circle cx="320" cy="90" r="1.5" fill="#fbbf24" opacity="0.35"/>
-  <circle cx="450" cy="50" r="1.5" fill="#c8b6e2" opacity="0.4"/>
-  <circle cx="750" cy="70" r="1.5" fill="#e0d4f7" opacity="0.35"/>
-  <circle cx="890" cy="85" r="1.5" fill="#fbbf24" opacity="0.4"/>
-  <circle cx="1020" cy="55" r="1.5" fill="#c8b6e2" opacity="0.35"/>
+  <!-- Círculo central de acento -->
+  <circle cx="600" cy="125" r="180" fill="#fbbf24" opacity="0.06"/>
+  <circle cx="600" cy="125" r="140" fill="#7c3aed" opacity="0.08"/>
   
-  <circle cx="220" cy="150" r="1.5" fill="#c8b6e2" opacity="0.4"/>
-  <circle cx="380" cy="165" r="1.5" fill="#e0d4f7" opacity="0.35"/>
-  <circle cx="540" cy="145" r="1.5" fill="#fbbf24" opacity="0.4"/>
-  <circle cx="660" cy="160" r="1.5" fill="#c8b6e2" opacity="0.35"/>
-  <circle cx="820" cy="155" r="1.5" fill="#e0d4f7" opacity="0.4"/>
-  <circle cx="980" cy="170" r="1.5" fill="#fbbf24" opacity="0.35"/>
+  <!-- Elementos geométricos laterales -->
+  <rect x="80" y="90" width="60" height="60" fill="none" stroke="#fbbf24" stroke-width="3" opacity="0.3" transform="rotate(45 110 120)"/>
+  <rect x="70" y="80" width="70" height="70" fill="none" stroke="#e0d4f7" stroke-width="1" opacity="0.2" transform="rotate(45 105 115)"/>
   
-  <!-- Hexágonos decorativos -->
-  <polygon points="180,60 195,70 195,90 180,100 165,90 165,70" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.4"/>
-  <polygon points="180,60 195,70 195,90 180,100 165,90 165,70" fill="none" stroke="#e0d4f7" stroke-width="1.5" opacity="0.3" transform="translate(15, 5) scale(1.15)"/>
+  <rect x="1060" y="90" width="60" height="60" fill="none" stroke="#c8b6e2" stroke-width="3" opacity="0.3" transform="rotate(45 1090 120)"/>
+  <rect x="1050" y="80" width="70" height="70" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.2" transform="rotate(45 1085 115)"/>
   
-  <polygon points="1020,60 1035,70 1035,90 1020,100 1005,90 1005,70" fill="none" stroke="#c8b6e2" stroke-width="2" opacity="0.4"/>
-  <polygon points="1020,60 1035,70 1035,90 1020,100 1005,90 1005,70" fill="none" stroke="#fbbf24" stroke-width="1.5" opacity="0.3" transform="translate(-15, 5) scale(1.15)"/>
+  <!-- Línea superior diagonal -->
+  <line x1="250" y1="60" x2="950" y2="60" stroke="#fbbf24" stroke-width="4" opacity="0.5"/>
+  <line x1="270" y1="65" x2="930" y2="65" stroke="#e0d4f7" stroke-width="1" opacity="0.3"/>
   
-  <!-- Título -->
-  <text x="600" y="108" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#0f1419" text-anchor="middle" opacity="0.5">🚀 PROYECTOS</text>
-  <text x="600" y="105" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">🚀 PROYECTOS</text>
+  <!-- TÍTULO super moderno -->
+  <g>
+    <!-- Fondo del título con ángulo -->
+    <rect x="350" y="100" width="500" height="65" fill="#4c1d95" opacity="0.25" transform="skewX(-5)"/>
+    
+    <!-- Icono -->
+    <text x="385" y="145" font-family="Arial, sans-serif" font-size="45" fill="#fbbf24" opacity="0.9">🚀</text>
+    
+    <!-- Texto principal bold -->
+    <text x="600" y="148" font-family="Arial, sans-serif" font-size="56" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="8">PROYECTOS</text>
+  </g>
   
-  <!-- Subtítulo -->
-  <text x="600" y="140" font-family="Arial, sans-serif" font-size="18" fill="#c8b6e2" text-anchor="middle">Desarrollos Destacados</text>
+  <!-- Subtítulo elegante -->
+  <text x="600" y="185" font-family="Arial, sans-serif" font-size="17" font-weight="300" fill="#c8b6e2" text-anchor="middle" letter-spacing="4">DESARROLLOS DESTACADOS</text>
   
-  <!-- Líneas decorativas -->
-  <line x1="360" y1="165" x2="840" y2="165" stroke="#fbbf24" stroke-width="3" opacity="0.6"/>
-  <line x1="380" y1="165" x2="820" y2="165" stroke="#f59e0b" stroke-width="2" opacity="0.4"/>
+  <!-- Línea inferior -->
+  <line x1="350" y1="205" x2="850" y2="205" stroke="#fbbf24" stroke-width="5" opacity="0.6"/>
+  <line x1="370" y1="211" x2="830" y2="211" stroke="#e0d4f7" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Puntos decorativos distribuidos -->
+  <g opacity="0.4">
+    <circle cx="280" cy="110" r="2.5" fill="#e0d4f7"/>
+    <circle cx="310" cy="140" r="2" fill="#fbbf24"/>
+    <circle cx="340" cy="120" r="2.5" fill="#c8b6e2"/>
+    <circle cx="860" cy="110" r="2.5" fill="#c8b6e2"/>
+    <circle cx="890" cy="140" r="2" fill="#e0d4f7"/>
+    <circle cx="920" cy="120" r="2.5" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Estrellas mágicas en esquinas -->
+  <polygon points="220,220 223,230 233,230 225,236 228,246 220,240 212,246 215,236 207,230 217,230" fill="#fbbf24" opacity="0.6"/>
+  <polygon points="980,220 983,230 993,230 985,236 988,246 980,240 972,246 975,236 967,230 977,230" fill="#e0d4f7" opacity="0.6"/>
 </svg>
 </div>
 
@@ -255,46 +308,81 @@ const kodepe = {
 
 ---
 
-<!-- STATS SVG - Ultra Compatible -->
+<!-- STATS - Modern Design -->
 <div align="center">
-<svg width="100%" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Fondo con capas -->
-  <rect width="1200" height="200" fill="#1e293b"/>
-  <rect width="1200" height="100" fill="#334155" opacity="0.5"/>
+<svg width="100%" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo tech moderno -->
+  <rect width="1200" height="250" fill="#0a0e1f"/>
+  <rect width="1200" height="250" fill="#0f172a" opacity="0.9"/>
+  <rect x="0" y="50" width="1200" height="150" fill="#1e293b" opacity="0.5"/>
   
-  <!-- Grid decorativo simple -->
-  <line x1="0" y1="50" x2="1200" y2="50" stroke="#e0d4f7" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="100" x2="1200" y2="100" stroke="#e0d4f7" stroke-width="0.5" opacity="0.1"/>
-  <line x1="0" y1="150" x2="1200" y2="150" stroke="#e0d4f7" stroke-width="0.5" opacity="0.1"/>
+  <!-- Grid sutil de fondo -->
+  <g opacity="0.1">
+    <line x1="0" y1="62" x2="1200" y2="62" stroke="#e0d4f7" stroke-width="0.5"/>
+    <line x1="0" y1="125" x2="1200" y2="125" stroke="#e0d4f7" stroke-width="0.5"/>
+    <line x1="0" y1="188" x2="1200" y2="188" stroke="#e0d4f7" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="250" stroke="#e0d4f7" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="250" stroke="#e0d4f7" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="250" stroke="#e0d4f7" stroke-width="0.5"/>
+    <line x1="800" y1="0" x2="800" y2="250" stroke="#e0d4f7" stroke-width="0.5"/>
+    <line x1="1000" y1="0" x2="1000" y2="250" stroke="#e0d4f7" stroke-width="0.5"/>
+  </g>
   
-  <line x1="200" y1="0" x2="200" y2="200" stroke="#e0d4f7" stroke-width="0.5" opacity="0.08"/>
-  <line x1="400" y1="0" x2="400" y2="200" stroke="#e0d4f7" stroke-width="0.5" opacity="0.08"/>
-  <line x1="600" y1="0" x2="600" y2="200" stroke="#e0d4f7" stroke-width="0.5" opacity="0.08"/>
-  <line x1="800" y1="0" x2="800" y2="200" stroke="#e0d4f7" stroke-width="0.5" opacity="0.08"/>
-  <line x1="1000" y1="0" x2="1000" y2="200" stroke="#e0d4f7" stroke-width="0.5" opacity="0.08"/>
+  <!-- Gráficos estilizados de datos izquierda -->
+  <g opacity="0.6">
+    <polyline points="100,180 140,145 180,160 220,125 260,145" fill="none" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="140" cy="145" r="5" fill="#fbbf24"/>
+    <circle cx="180" cy="160" r="5" fill="#fbbf24"/>
+    <circle cx="220" cy="125" r="5" fill="#fbbf24"/>
+  </g>
   
-  <!-- Gráficos de líneas -->
-  <polyline points="120,155 170,125 220,145 270,105 320,135" fill="none" stroke="#fbbf24" stroke-width="2.5" opacity="0.5"/>
-  <polyline points="880,155 930,135 980,150 1030,115 1080,130" fill="none" stroke="#c8b6e2" stroke-width="2.5" opacity="0.5"/>
+  <!-- Gráficos estilizados de datos derecha -->
+  <g opacity="0.6">
+    <polyline points="940,180 980,150 1020,165 1060,135 1100,155" fill="none" stroke="#c8b6e2" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="980" cy="150" r="5" fill="#c8b6e2"/>
+    <circle cx="1020" cy="165" r="5" fill="#c8b6e2"/>
+    <circle cx="1060" cy="135" r="5" fill="#c8b6e2"/>
+  </g>
   
-  <!-- Puntos en los datos -->
-  <circle cx="170" cy="125" r="4" fill="#fbbf24" opacity="0.7"/>
-  <circle cx="220" cy="145" r="4" fill="#fbbf24" opacity="0.7"/>
-  <circle cx="270" cy="105" r="4" fill="#fbbf24" opacity="0.7"/>
+  <!-- Barras verticales decorativas -->
+  <rect x="320" y="100" width="8" height="50" fill="#7c3aed" opacity="0.3"/>
+  <rect x="340" y="85" width="8" height="65" fill="#a78bfa" opacity="0.3"/>
+  <rect x="360" y="110" width="8" height="40" fill="#c8b6e2" opacity="0.3"/>
   
-  <circle cx="930" cy="135" r="4" fill="#c8b6e2" opacity="0.7"/>
-  <circle cx="980" cy="150" r="4" fill="#c8b6e2" opacity="0.7"/>
-  <circle cx="1030" cy="115" r="4" fill="#c8b6e2" opacity="0.7"/>
+  <rect x="832" y="100" width="8" height="50" fill="#7c3aed" opacity="0.3"/>
+  <rect x="852" y="85" width="8" height="65" fill="#a78bfa" opacity="0.3"/>
+  <rect x="872" y="110" width="8" height="40" fill="#c8b6e2" opacity="0.3"/>
   
-  <!-- Título -->
-  <text x="600" y="98" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#0a0e1a" text-anchor="middle" opacity="0.6">📊 ESTADÍSTICAS</text>
-  <text x="600" y="95" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">📊 ESTADÍSTICAS</text>
+  <!-- Línea superior -->
+  <rect x="400" y="55" width="400" height="4" fill="#fbbf24" opacity="0.6"/>
+  <rect x="420" y="61" width="360" height="1" fill="#e0d4f7" opacity="0.4"/>
+  
+  <!-- TÍTULO moderno -->
+  <g>
+    <!-- Fondo del título -->
+    <rect x="420" y="95" width="360" height="75" fill="#334155" opacity="0.3"/>
+    
+    <!-- Icono -->
+    <text x="450" y="145" font-family="Arial, sans-serif" font-size="46" fill="#fbbf24" opacity="0.9">📊</text>
+    
+    <!-- Texto -->
+    <text x="600" y="150" font-family="Arial, sans-serif" font-size="50" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="5">ESTADÍSTICAS</text>
+  </g>
   
   <!-- Subtítulo -->
-  <text x="600" y="130" font-family="Arial, sans-serif" font-size="18" fill="#c8b6e2" text-anchor="middle">GitHub Activity & Contributions</text>
+  <text x="600" y="185" font-family="Arial, sans-serif" font-size="15" font-weight="300" fill="#c8b6e2" text-anchor="middle" letter-spacing="2">GITHUB ACTIVITY & CONTRIBUTIONS</text>
   
-  <!-- Línea dorada inferior -->
-  <line x1="300" y1="185" x2="900" y2="185" stroke="#fbbf24" stroke-width="3" opacity="0.6"/>
+  <!-- Línea inferior con degradado visual -->
+  <rect x="300" y="210" width="600" height="5" fill="#fbbf24" opacity="0.7"/>
+  <rect x="320" y="217" width="560" height="2" fill="#e0d4f7" opacity="0.4"/>
+  
+  <!-- Indicadores de datos -->
+  <g opacity="0.5">
+    <circle cx="280" cy="90" r="3" fill="#fbbf24"/>
+    <circle cx="920" cy="90" r="3" fill="#c8b6e2"/>
+    <rect x="275" y="95" width="10" height="2" fill="#fbbf24"/>
+    <rect x="915" y="95" width="10" height="2" fill="#c8b6e2"/>
+  </g>
 </svg>
 </div>
 
@@ -374,30 +462,43 @@ const kodepe = {
 
 ---
 
-<!-- FOOTER SVG - Ultra Compatible -->
-<svg width="100%" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
-  <!-- Fondo con capas -->
-  <rect width="1200" height="120" fill="#5b21b6"/>
-  <rect width="1200" height="60" fill="#4c1d95" opacity="0.6"/>
+<!-- FOOTER - Modern Design -->
+<svg width="100%" height="150" viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo moderno -->
+  <rect width="1200" height="150" fill="#1e1b4b"/>
+  <rect width="1200" height="75" fill="#4c1d95" opacity="0.6"/>
+  <rect x="0" y="75" width="1200" height="75" fill="#5b21b6" opacity="0.4"/>
   
-  <!-- Onda decorativa -->
-  <path d="M 0,60 Q 150,20 300,60 T 600,60 T 900,60 T 1200,60 L 1200,120 L 0,120 Z" fill="#1e1b4b" opacity="0.4"/>
+  <!-- Onda decorativa moderna -->
+  <path d="M 0,70 Q 200,40 400,70 T 800,70 T 1200,70 L 1200,150 L 0,150 Z" fill="#0f0a1f" opacity="0.4"/>
+  <path d="M 0,75 Q 200,45 400,75 T 800,75 T 1200,75" stroke="#fbbf24" stroke-width="2" fill="none" opacity="0.5"/>
   
-  <!-- Estrellas brillantes -->
-  <circle cx="240" cy="40" r="2.5" fill="#fbbf24" opacity="0.9"/>
-  <circle cx="600" cy="30" r="3" fill="#e0d4f7" opacity="1"/>
-  <circle cx="960" cy="45" r="2.5" fill="#c8b6e2" opacity="0.8"/>
+  <!-- Elementos decorativos superiores -->
+  <rect x="200" y="25" width="800" height="3" fill="#e0d4f7" opacity="0.3"/>
+  <rect x="250" y="30" width="700" height="1" fill="#fbbf24" opacity="0.2"/>
   
-  <circle cx="150" cy="55" r="1.8" fill="#e0d4f7" opacity="0.7"/>
-  <circle cx="450" cy="50" r="2" fill="#fbbf24" opacity="0.8"/>
-  <circle cx="750" cy="38" r="1.5" fill="#c8b6e2" opacity="0.9"/>
-  <circle cx="1050" cy="48" r="2.2" fill="#e0d4f7" opacity="0.8"/>
+  <!-- Estrellas decorativas distribuidas -->
+  <g opacity="0.8">
+    <circle cx="150" cy="50" r="2.5" fill="#fbbf24"/>
+    <circle cx="280" cy="40" r="2" fill="#e0d4f7"/>
+    <circle cx="420" cy="55" r="2.5" fill="#c8b6e2"/>
+    <circle cx="600" cy="35" r="3" fill="#fbbf24"/>
+    <circle cx="780" cy="55" r="2.5" fill="#e0d4f7"/>
+    <circle cx="920" cy="40" r="2" fill="#c8b6e2"/>
+    <circle cx="1050" cy="50" r="2.5" fill="#fbbf24"/>
+  </g>
   
-  <circle cx="300" cy="42" r="1.5" fill="#fbbf24" opacity="0.6"/>
-  <circle cx="900" cy="35" r="1.8" fill="#c8b6e2" opacity="0.7"/>
+  <!-- Estrellas mágicas especiales -->
+  <polygon points="240,55 243,65 253,65 245,71 248,81 240,75 232,81 235,71 227,65 237,65" fill="#fbbf24" opacity="0.7"/>
+  <polygon points="960,55 963,65 973,65 965,71 968,81 960,75 952,81 955,71 947,65 957,65" fill="#e0d4f7" opacity="0.7"/>
   
-  <!-- Texto -->
-  <text x="600" y="85" font-family="Arial, sans-serif" font-size="16" font-weight="500" fill="#ffffff" text-anchor="middle" opacity="0.95">⭐️ Si te gusta mi trabajo, considera darle una estrella a mis repositorios ⭐️</text>
+  <!-- Texto principal con diseño moderno -->
+  <g>
+    <text x="600" y="105" font-family="Arial, sans-serif" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="1">⭐ Si te gusta mi trabajo, dale una estrella a mis repositorios ⭐</text>
+  </g>
+  
+  <!-- Línea inferior decorativa -->
+  <rect x="350" y="125" width="500" height="2" fill="#fbbf24" opacity="0.4"/>
 </svg>
 
 </div>
