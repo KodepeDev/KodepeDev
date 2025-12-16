@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- ANIMATED GRADIENT HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Kodepe%20Dev&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+<!-- CUSTOM HEADER WITH FRIEREN BACKGROUND -->
+<img width="100%" src="https://raw.githubusercontent.com/KodepeDev/KodepeDev/main/assets/header_frieren.png" alt="Kodepe Dev Header"/>
 
 <!-- TYPING ANIMATION -->
 <a href="https://git.io/typing-svg">
@@ -57,12 +57,8 @@ const kodepe = {
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/KodepeDev/KodepeDev/main/assets/frieren_watermarked.jpg" width="100%" alt="Frieren Divider"/>
+  <img width="100%" src="https://raw.githubusercontent.com/KodepeDev/KodepeDev/main/assets/techstack_frieren.png" alt="Tech Stack"/>
 </div>
-
----
-
-## 🛠️ Tech Stack
 
 <div align="center">
 
@@ -95,12 +91,8 @@ const kodepe = {
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/KodepeDev/KodepeDev/main/assets/frieren_watermarked.jpg" width="100%" alt="Frieren Divider"/>
+  <img width="100%" src="https://raw.githubusercontent.com/KodepeDev/KodepeDev/main/assets/projects_frieren.png" alt="Proyectos"/>
 </div>
-
----
-
-## 🚀 Proyectos Destacados
 
 <div align="center">
 
@@ -142,12 +134,8 @@ const kodepe = {
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/KodepeDev/KodepeDev/main/assets/frieren_watermarked.jpg" width="100%" alt="Frieren Divider"/>
+  <img width="100%" src="https://raw.githubusercontent.com/KodepeDev/KodepeDev/main/assets/stats_frieren.png" alt="Estadísticas"/>
 </div>
-
----
-
-## 📊 GitHub Stats
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=KodepeDev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats"/>
@@ -191,12 +179,6 @@ const kodepe = {
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
-</div>
-
----
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/KodepeDev/KodepeDev/main/assets/frieren_watermarked.jpg" width="100%" alt="Frieren Divider"/>
 </div>
 
 ---
